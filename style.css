@@ -22,11 +22,11 @@ section{
          url('fonts/Chava-Regular.otf') format('opentype');
 }
 
-body {
+.first {
     background-color: #6E3ABA;
 }
 
-h2 {
+.timerSection {
     font-family: 'TTHoves', sans-serif;
     font-weight: 700;
     font-size: 52px;
@@ -82,4 +82,59 @@ button {
     padding: 20px, 0px, 20px, 0px;
     gap: 10px;
     border:1px solid #6E3ABA;
+}
+
+.cardSection {
+    display: flex;
+    text-transform: uppercase;
+    font-family: 'TTHoves', sans-serif;
+    font-weight: 500;
+    font-size: 52px;
+    color: black;
+    width: 769px;
+    height: 136px;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 210px;
+    height: 210px;
+}
+
+.shit {
+    display: block;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-family: 'TT Hoves', sans-serif;
+    text-transform: uppercase;
+    width: 420px;
+    height: 38px;
+    font-weight: 600;
+    font-size: 27px;
+    gap: 20;
+}
+
+.description{
+    display: block;
+    line-height: 1.5;
+    margin: 0;
+    font-family: 'TT Hoves', sans-serif;
+    width: 450px;
+    height: 228px;
+    font-weight: 400;  
+    font-size: 27px;
+}
+
+.card{
+  width: 48%;
+  min-height: 200px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
