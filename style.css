@@ -100,7 +100,9 @@ button {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 0;
+    padding: 20px;
 }
 
 .card img {
@@ -132,9 +134,10 @@ button {
     font-size: 27px;
 }
 
-.card{
-  width: 48%;
-  min-height: 200px;
-  padding: 20px;
-  margin-bottom: 20px;
-}
+.card {
+    width: 48%;
+    min-height: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
