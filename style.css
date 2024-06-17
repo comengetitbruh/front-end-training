@@ -140,4 +140,36 @@ button {
     padding: 20px;
     margin-bottom: 20px;
   }
+
+  .infoSection h2{
+    display: flex;
+    font-family: 'TT Hoves', sans-serif;
+    width: 1022px;
+    height: 136px;
+    margin-left: 120px;
+    font-weight: 500;
+    font-size: 58px;
+  }
+
+  .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .woke{
+    font-family: 'TT Hoves', sans-serif;
+    width: 272px;
+    height: 38px;
+    font-weight: 600;
+    font-size: 27px;
+  }
+  .up{
+    display: block;
+    font-family: 'TT Hoves', sans-serif;
+    width: 400px;
+    height: 152px;
+    font-weight: 400;
+    font-size: 27px;
+  }
   
